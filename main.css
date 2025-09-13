@@ -1,0 +1,35 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .pizza-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .pizza-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .pizza-item h2 {
+            margin: 0 0 10px;
+            color: #e74c3c;
+            font-size: 1.5em;
+        }
+        .pizza-item p {
+            margin: 0;
+            color: #555;
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-left: 10px;
+        }
